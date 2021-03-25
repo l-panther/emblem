@@ -5,17 +5,24 @@ $(document).ready(function() {
 		
 		$.get("data/books.json", function(result) {
 
-			let output = "";
+			let output = "",
+				title = "",
+				para = "";
 			for (var i = 0; i < result.length; i++) {
 
+				if (result[i].id == 1) {
+					title += result[i].type;
+					para += result[i].shortdescription;
+				}
+				
 				output += "<!--  Book --> \
 					<ul class='book page-item'> \
 					<li><h3>" + result[i].h3 + "</h3></li> \
-					<li><span class='text_green'>Title: </span >" + result[i].title + "</li> \
-					<li><span class='text_green'>Author: </span>" + result[i].author + "</li> \
+					<li><span class='w3-margin-top text_green'>Title: </span>" + result[i].title + "</li> \
+					<li><span class='w3-margin-top text_green'>Author: </span>" + result[i].author + "</li> \
 					<li><span class='text_green'>Book Description: </span>" + result[i].description + "</li> \
-					<li class='w3-margin-top'><span class='bold_text'>Price:</span> " + result[i].price + "</li> \
-					<li><span class='bold_text'>Investment Rating: </span>";
+					<li><span class='text_green'>Price:</span> " + result[i].price + "</li> \
+					<li><span class='text_green'>Investment Rating: </span>";
 
 					for (var j = 0; j < result[i].star; j++) {
 						output += "<i class='fa fa-star'></i>";
@@ -30,6 +37,8 @@ $(document).ready(function() {
 
 			}
 			$("#bookList").html(output);
+			$("#bookMonthTitle").text(title);
+			$("#bookMonthDesc").text(para);
 		}, "json");
 	}
 	

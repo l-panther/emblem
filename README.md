@@ -25,4 +25,4 @@ There is no configuration needed to run this website.
 
 Notes
 -----
-This project is an example of my front-end web development capabilities. For more information about the development of this project, read the Development Plan for Emblem.
+This project is an example of my front-end web development capabilities. 

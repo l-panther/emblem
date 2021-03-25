@@ -1,9 +1,24 @@
 [
 
 	{
+		"id": 1,
+		"h3": "The Heart of the Matter",
+		"title": "The Heart of the Matter",
+		"author": "Graham Greene",
+		"price":"£7000.00",
+		"star": "5",
+		"image": "heart_of_the_matter",
+		"type": "Book of the Month",
+		"shortdescription": "This book represents an excellent investment, and is expected to appreciate in value by 6% over the next three years.",
+		"description": "London: WH Smith, 1880. First Edition. This book represents an excellent investment, and is expected to appreciate in value by 6% over the next three years.<br>"
+		
+	},
+	
+	{
+		"id": 2,
 		"h3": "A Trumpet Major",
 		"title": "A Trumpet Major",
-		"author": "Thomas Hardy ",
+		"author": "Thomas Hardy",
 		"price":"£7000.00",
 		"star": "5",
 		"image": "trumpet_major",
@@ -12,6 +27,7 @@
 	},
 	
 	{
+		"id": 3,
 		"h3": "Complete Works Dickens",
 		"title": "Complete Works Dickens",
 		"author": "Charles Dickens",
@@ -23,6 +39,7 @@
 	},
 	
 	{
+		"id": 4,
 		"h3": "David Copperfield",
 		"title": "David Copperfield",
 		"author": "Charles Dickens",
@@ -34,6 +51,7 @@
 	},
 	
 	{
+		"id": 5,
 		"h3": "Jane Eyre",
 		"title": "Jane Eyre",
 		"author": "Charlotte Bronte",
@@ -45,6 +63,7 @@
 	},
 	
 	{
+		"id": 6,
 		"h3": "Mill on the Floss",
 		"title": "Mill on the Floss",
 		"author": "George Eliot",
@@ -56,6 +75,7 @@
 	},
 	
 	{
+		"id": 7,
 		"h3": "Northhanger Abbey",
 		"title": "Northhanger Abbey",
 		"author": "Jane Austen",

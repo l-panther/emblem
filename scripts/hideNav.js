@@ -3,14 +3,14 @@ $(document).ready(function() {
 	// Variables
 	let fullpath = window.location.pathname,
 		splitpath = fullpath.split("/"),
-		r = splitpath.pop(),
-		v = r.split(".")[0],
+		removeLastElem = splitpath.pop(),
+		path = removeLastElem.split(".")[0],
 		links = $("#primarynav li").children().addClass("w3-hover-none"),
 		dropdown = $("div .w3-dropdown-content").children().addClass("w3-hover-none");
 	
 	
 	// Switch for active link
-	switch (v) {
+	switch (path) {
 		case "":
 			setActive(".index");
 			break; 

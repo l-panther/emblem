@@ -6,7 +6,7 @@ if (!pos == -1) {
 }
 
 function setColor(id) {
-	document.getElementById(id).style.border = "2px solid #b20000";
+	document.getElementById(id).style.border = "1px solid #b20000";
 }
 
 function defaultColor(id) {
