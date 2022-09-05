@@ -1,3 +1,5 @@
+<?php  include 'includes/skiplink-bottom.html'; ?>
+
 			<!-- Footer -->
 			<footer role="contentinfo" id="footer">
 				<div class="w3-row w3-container main-content">
