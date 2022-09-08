@@ -1013,6 +1013,10 @@ input[type=submit]:hover {
 		padding: 0 50px !important;
 	}
 
+	#bookMonth h2, .book_of_month_desc p {
+		text-align: left !important;
+	}
+
 	.book_of_month_list {
 		width: 100%;
 		padding-left: 30px;
@@ -1142,10 +1146,6 @@ input[type=submit]:hover {
 
 	.book_of_month_desc {
 		padding: 0 40px 0 0 !important;
-	}
-
-	.book_of_month_desc p {
-		text-align: left !important;
 	}
 
 	.book_of_month_desc .w3-btn {
