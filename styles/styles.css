@@ -289,6 +289,7 @@ h3 {
 	/* For Firefox 3.6 to 15 */
 	background: linear-gradient(-190deg, #236841, #236841, #236841, #195433, #195433);
 	/* Standard syntax */
+	background: url("../images/banner/bg.png");
 	background-size: cover;
 }
 
@@ -353,7 +354,7 @@ summary,
 	padding-bottom: 1em;
 	color: #ffffff;
 	text-align: center;
-	background: #236841;
+	background: url("../images/banner/bg.png");;
 	padding: 5px 0px 0px 10px;
 	font-family: 'Parisr Font';
 }
