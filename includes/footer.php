@@ -1,9 +1,15 @@
 <?php  include 'includes/skiplink-bottom.html'; ?>
-
-			<!-- Footer -->
-			<footer role="contentinfo" id="footer">
-				<div class="w3-row w3-container main-content">
 			
+			<div id="old-book-sm" class="w3-hide-medium w3-hide-small main-content old-books-container">
+				<img src="images/main/ulysses.png" alt="">
+				<img src="images/main/rumpour_at_nightfall.png" alt="">
+
+			</div>
+					
+			<footer role="contentinfo" id="footer">
+
+				<div class="w3-row w3-container main-content">
+					
 					<div class="w3-col s12 m4 l4">
 						<h2 class="w3-margin-bottom">More Links</h2>
 						<!-- Links -->
